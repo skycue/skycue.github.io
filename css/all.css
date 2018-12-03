@@ -295,6 +295,7 @@ p {
   line-height: 1.5;
   font-size: 1.05em;
   color: #333;
+  padding: 0px 200px;
 }
 
 em {
@@ -502,6 +503,8 @@ nav {
 #supporting-header {
   text-align: center;
   color: white;
+  font-weight: lighter;
+  font-size: 2em;
 }
 
 @media (min-width: 12.5em) {
@@ -618,8 +621,10 @@ nav {
   height: 200px;
   width: 200px;
   margin-top: 2em;
-  background: url("../img/profile-pic.png") center center no-repeat;
-  background: url("../img/profile-pic.png") center center no-repeat;
+  margin-bottom: 2.5em;
+  background: url("../img/profile-pic.jpg") center center no-repeat;
+  background-size: 250px;
+  background-position: center -44px;
 }
 
 #about-para {
@@ -884,14 +889,6 @@ img:hover {
   }
 }
 
-#logo {
-  font-size: 2em;
-  font-weight: 600;
-  color: white;
-  float: left;
-  letter-spacing: 0.075em;
-}
-
 /* Change background image here! */
 header {
   background-image: url("../img/header-img-precomp.png");
@@ -949,6 +946,7 @@ nav {
 #jumbotron {
   text-align: center;
   color: white;
+  font-size: 4em;
 }
 
 @media (min-width: 12.5em) {
