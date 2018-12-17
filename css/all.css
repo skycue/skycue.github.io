@@ -728,7 +728,17 @@ img:hover {
   top: 50%;
   -webkit-transform: translateY(50%);
       -ms-transform: translateY(50%);
-          transform: translateY(50%);
+          transform: translateY(20%);
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.overlay > h3,
+.project-links > h4 {
+  margin: 0;
 }
 
 .grey {
