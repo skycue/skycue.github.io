@@ -746,6 +746,10 @@ img:hover {
   color: grey;
 }
 
+.project-links > a:hover {
+  color: darkgrey;
+}
+
 .grey {
   background-color: #cdcec0;
   padding-bottom: 1em;
