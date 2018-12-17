@@ -736,9 +736,14 @@ img:hover {
   justify-content: space-around;
 }
 
-.overlay > h3,
-.project-links > h4 {
+.overlay > h3 {
   margin: 0;
+}
+
+.project-links > a {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: grey;
 }
 
 .grey {
