@@ -72,6 +72,11 @@ strong {
   font-weight: bold;
 }
 
+i {
+  font-size: 150px;
+  margin: 30px;
+}
+
 dfn {
   font-style: italic;
 }
